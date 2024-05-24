@@ -219,10 +219,42 @@ databaseChangeLog:
               - column:
                   name: breed
                   type: varchar(4000)
+  - changeSet:
+      id: satwell:13
+      author: satwell@harness.io
+      context: example-context
+      comment: I really want another column 
+      changes:
+        - addColumn:
+            tableName: pets
+            columns:
+              - column:
+                  name: rfid
+                  type: varchar(4000)
+  - changeSet:
+      id: satwell:14
+      author: satwell@harness.io
+      context: example-context
+      comment: I really want another column 
+      changes:
+        - addColumn:
+            tableName: pets
+            columns:
+              - column:
+                  name: paw_size
+                  type: varchar(4000)
+  - changeSet:
+      id: satwell:15
+      author: satwell@harness.io
+      context: example-context
+      comment: I really want another column 
+      changes:
+        - addColumn:
+            tableName: pets
+            columns:
+              - column:
+                  name: tail_length
+                  type: varchar(4000)
 
 
                                 
-
-
-
-
