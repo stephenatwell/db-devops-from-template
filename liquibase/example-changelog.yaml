@@ -156,15 +156,7 @@ databaseChangeLog:
       rollback:
         - dropColumn:
             tableName: person
-            columnName: field2
-  - changeSet:
-      id:  createProcedure-example
-      author:  liquibase-docs
-      changes:
-      - createProcedure:
-          path:  procedures/my-logic.sql
-          procedureName: test
-          relativeToChangelogFile: true          
+            columnName: field2         
   - changeSet:
       id: satwell:11
       author: satwell@harness.io
