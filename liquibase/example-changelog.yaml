@@ -254,10 +254,10 @@ databaseChangeLog:
       comment: I really want another column 
       changes:
         - addColumn:
-            tableName: last_nail_trim_date
+            tableName: pets
             columns:
               - column:
-                  name: tail_length
+                  name: last_nail_trim_date
                   type: varchar(4000)
 
 
