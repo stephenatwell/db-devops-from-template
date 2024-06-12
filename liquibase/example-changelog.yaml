@@ -221,7 +221,7 @@ databaseChangeLog:
             tableName: pets
             columns:
               - column:
-                  name: rfid
+                  name: tail_length
                   type: varchar(4000)
   - changeSet:
       id: satwell:14
