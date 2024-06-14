@@ -223,30 +223,5 @@ databaseChangeLog:
               - column:
                   name: tail_length
                   type: varchar(4000)
-  - changeSet:
-      id: satwell:14
-      author: satwell@harness.io
-      context: example-context
-      comment: I really want another column 
-      changes:
-        - addColumn:
-            tableName: pets
-            columns:
-              - column:
-                  name: paw_size
-                  type: varchar(4000)
-  - changeSet:
-      id: satwell:15
-      author: satwell@harness.io
-      context: example-context
-      comment: I really want another column 
-      changes:
-        - addColumn:
-            tableName: pets
-            columns:
-              - column:
-                  name: last_nail_trim_date
-                  type: varchar(4000)
-
 
                                 
